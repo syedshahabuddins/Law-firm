@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umrah Guide - Sa'i & Tahallul</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Sa'i & Tahallul</h1>
+            <p>Completing Your Umrah</p>
+        </header>
+
+        <div class="nav">
+            <a href="index.html" class="nav-btn"><i class="fas fa-home"></i> Introduction</a>
+            <a href="ihram.html" class="nav-btn"><i class="fas fa-hands-praying"></i> Ihram</a>
+            <a href="tawaf.html" class="nav-btn"><i class="fas fa-kaaba"></i> Tawaf</a>
+            <a href="sai.html" class="nav-btn active"><i class="fas fa-walking"></i> Sa'i & Tahallul</a>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="readingProgress"></div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-walking"></i> Pillar 3: Sa'i</h2>
+            <p>Sa'i is the ritual walking seven times between the hills of Safa and Marwah, commemorating Hajar's search for water for her son Ismail.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-list-ol"></i> How to Perform Sa'i</h2>
+            
+            <h3>Step 1: Start at Safa</h3>
+            <p>After drinking Zam Zam water, proceed to the hill of Safa. Ascend it, face the Ka'bah, and recite:</p>
+            
+            <div class="arabic-container">
+                <div class="arabic-text">إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ</div>
+                <div class="urdu-transliteration">بے شک صفا اور مروہ اللہ کی نشانیوں میں سے ہیں</div>
+                <div class="transliteration">Innaṣ-Ṣafā wal-Marwata min sha'ā'irillāh.</div>
+                <div class="translation">(Indeed, Safa and Marwah are among the symbols of Allah.) (Surah Al-Baqarah 2:158)</div>
+            </div>
+            
+            <p>Make personal supplications at Safa.</p>
+            
+            <h3>Step 2: Walk to Marwah</h3>
+            <p>Walk towards Marwah. Between the two green pillars, men should walk briskly (but not run). Upon reaching Marwah, ascend it, face the Ka'bah, and make dua. This completes one round.</p>
+            
+            <h3>Step 3: Return to Safa</h3>
+            <p>Walk back to Safa in the same manner. This is the second round.</p>
+            
+            <h3>Step 4: Complete Seven Rounds</h3>
+            <p>Continue until you complete seven rounds, ending at Marwah.</p>
+            
+            <p><strong>Note:</strong> If you forget the count, assume the lesser number and complete the remainder.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-cut"></i> Pillar 4: Tahallul</h2>
+            <p>Tahallul is the act of shaving or cutting the hair, which symbolically releases you from the state of Ihram.</p>
+            
+            <h3>How to Perform Tahallul</h3>
+            
+            <div class="pillars-container">
+                <div class="pillar">
+                    <h3><i class="fas fa-male"></i> For Men</h3>
+                    <p>It is highly recommended to shave the entire head. At minimum, you must trim a portion of hair from all over the head.</p>
+                </div>
+                
+                <div class="pillar">
+                    <h3><i class="fas fa-female"></i> For Women</h3>
+                    <p>Women must only trim their hair, approximately the length of a fingertip. They do not shave their heads.</p>
+                </div>
+            </div>
+            
+            <p class="mt-20"><strong>Completion:</strong> Once Tahallul is completed, all restrictions of Ihram are lifted, and your Umrah is complete.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-star-and-crescent"></i> Completion of Umrah</h2>
+            <p>Congratulations! You have completed all the pillars of Umrah. For the Mehdavi believer, this is not an end, but a beautiful new beginning. It is a chance to return to daily life with a heart purified, a faith renewed, and a spirit reconnected to the Divine.</p>
+            
+            <p>May Allah accept your journey, forgive your sins, and make this Umrah a source of immense spiritual light and guidance for you. May you carry the peace and blessings of the Sacred Mosque in your heart forever.</p>
+            
+            <div class="arabic-container">
+                <div class="arabic-text">رَبَّنَا تَقَبَّلْ مِنَّا ۖ إِنَّكَ أَنتَ السَّمِيعُ الْعَلِيمُ</div>
+                <div class="urdu-transliteration">اے ہمارے رب! ہم سے قبول فرما، بے شک تو ہی سننے والا جاننے والا ہے</div>
+                <div class="transliteration">Rabbana taqabbal minna innaka antas-Sami'ul-'Alim.</div>
+                <div class="translation">(Our Lord, accept [this] from us. Indeed, You are the Hearing, the Knowing.) (Quran 2:127)</div>
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="tawaf.html" class="nav-btn"><i class="fas fa-arrow-left"></i> Back</a>
+            <a href="index.html" class="nav-btn"><i class="fas fa-home"></i> Home</a>
+        </div>
+
+        <footer class="footer">
+            <p>© Arkan al-Umrah Guide for Mehdavi Believers</p>
+        </footer>
+    </div>
+
+    <script>
+        // Reading Progress Bar
+        window.addEventListener('scroll', function() {
+            const winHeight = window.innerHeight;
+            const docHeight = document.documentElement.scrollHeight;
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollPercent = (scrollTop / (docHeight - winHeight)) * 100;
+            document.getElementById('readingProgress').style.width = scrollPercent + '%';
+        });
+    </script>
+</body>
+</html>

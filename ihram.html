@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umrah Guide - Ihram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Pillar 1: Ihram</h1>
+            <p>The Sacred State of Purity</p>
+        </header>
+
+        <div class="nav">
+            <a href="index.html" class="nav-btn"><i class="fas fa-home"></i> Introduction</a>
+            <a href="ihram.html" class="nav-btn active"><i class="fas fa-hands-praying"></i> Ihram</a>
+            <a href="tawaf.html" class="nav-btn"><i class="fas fa-kaaba"></i> Tawaf</a>
+            <a href="sai.html" class="nav-btn"><i class="fas fa-walking"></i> Sa'i & Tahallul</a>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar" id="readingProgress"></div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-hands-praying"></i> What is Ihram?</h2>
+            <p>Ihram is both the physical garments and the spiritual state you enter. It is a symbol of purity, equality, and submission to Allah.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-list-ol"></i> How to Perform Ihram</h2>
+            
+            <h3>Step 1: Purification</h3>
+            <p>Perform Ghusl (full ritual bath) with the intention of Ihram.</p>
+            
+            <h3>Step 2: Prayer</h3>
+            <p>Offer two Rakat prayer like "Dugana Tayatul Wazdu" (the prayer offered after ablution).</p>
+            
+            <h3>Step 3: Ihram Garments</h3>
+            <p>Wear the two pieces of clean, white cloth. For men, this consists of two seamless pieces of cloth. Women wear their regular modest clothing.</p>
+            
+            <h3>Step 4: The Intention (Niyyah)</h3>
+            <p>Declare your intention with sincerity:</p>
+            
+            <div class="arabic-container">
+                <div class="arabic-text">اللَّهُمَّ إِنِّي أُرِيدُ الْعُمْرَةَ فَيَسِّرْهَا لِي وَتَقَبَّلْهَا مِنِّي</div>
+                <div class="urdu-transliteration">اے اللہ! میں عمرہ کا ارادہ رکھتا ہوں، اسے میرے لیے آسان فرما اور اسے مجھ سے قبول فرما</div>
+                <div class="transliteration">Allāhumma innī urīdul-'Umrata fayassirhā lī wa taqabbalhā minnī.</div>
+                <div class="translation">(O Allah, I intend to perform Umrah, so make it easy for me and accept it from me.)</div>
+            </div>
+            
+            <h3>Step 5: The Talbiyah</h3>
+            <p>Recite this frequently from the moment of your intention until you start Tawaf:</p>
+            
+            <div class="arabic-container">
+                <div class="arabic-text">لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ</div>
+                <div class="urdu-transliteration">اے اللہ! میں حاضر ہوں، میں حاضر ہوں، میں حاضر ہوں، تیرا کوئی شریک نہیں، میں حاضر ہوں۔ بے شک تمام تعریف اور نعمت تیرے ہی لیے ہے اور بادشاہت تیری ہی ہے، تیرا کوئی شریک نہیں</div>
+                <div class="transliteration">Labbayka Allāhumma labbayk, labbayka lā sharīka laka labbayk, inna al-ḥamda wa an-ni'mata laka wa al-mulk, lā sharīka lak.</div>
+                <div class="translation">(Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise and bounty are Yours, and all sovereignty. You have no partner.)</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-ban"></i> Restrictions During Ihram</h2>
+            <ul>
+                <li>No cutting of hair or nails</li>
+                <li>No use of perfumes or scented products</li>
+                <li>No hunting or helping in hunting</li>
+                <li>No sexual relations or flirtatious speech</li>
+                <li>No wearing of stitched clothing (for men)</li>
+                <li>No covering of head (for men)</li>
+                <li>No covering of face (for women)</li>
+            </ul>
+        </div>
+
+        <div class="nav">
+            <a href="index.html" class="nav-btn"><i class="fas fa-arrow-left"></i> Back</a>
+            <a href="tawaf.html" class="nav-btn">Next: Tawaf <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <footer class="footer">
+            <p>© Arkan al-Umrah Guide for Mehdavi Believers</p>
+        </footer>
+    </div>
+
+    <script>
+        // Reading Progress Bar
+        window.addEventListener('scroll', function() {
+            const winHeight = window.innerHeight;
+            const docHeight = document.documentElement.scrollHeight;
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const scrollPercent = (scrollTop / (docHeight - winHeight)) * 100;
+            document.getElementById('readingProgress').style.width = scrollPercent + '%';
+        });
+    </script>
+</body>
+</html>
